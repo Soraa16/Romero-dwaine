@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Page</title>
+  <link rel="stylesheet" href="items.css" />
+</head>
+<body>
+    <div id="sidebar" class="sidebar">
+      <span class="close-btn" onclick="toggleSidebar()">&times;</span>
+        <a href="landing.html">Home</a>
+        <a href="items.html">Products</a>
+        <a href="cart.html">Cart</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="size.html">Size Chart</a>
+        <a href="faq.html">FAQs</a>
+    </div>
+  
+    <button id="openBtn" class="open-btn" onclick="toggleSidebar()">☰</button>
+
+  <h1>Collections</h1>
+
+  <section class="category">
+    <h2>Jackets</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src='pic1.webp' alt="Jacket 1" />
+        <h3>F1 RACING JACKET</h3>
+        <p class="price">$100.99</p>
+        <button class="add-to-cart" data-name="F1 RACING JACKET" data-price="100.99">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src='jacket3.jpg' alt="Jacket 1" />
+        <h3>NIKE TECH FLEECE</h3>
+        <p class="price">$49.99</p>
+        <button class="add-to-cart" data-name="NIKE TECH FLEECE" data-price="49.99">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src='jacket1.jpg' alt="Jacket 1" />
+        <h3>BAPE VARSITY JACKET</h3>
+        <p class="price">$39.99</p>
+        <button class="add-to-cart" data-name="BAPE VARSITY JACKET" data-price="39.99">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src='jacket2.jpg' alt="Jacket 1" />
+        <h3>BAPE FULL ZIP</h3>
+        <p class="price">$50.99</p>
+        <button class="add-to-cart" data-name="BAPE FULL ZIP" data-price="50.99">Add to Cart</button>
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="category">
+    <h2>Shirts</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src='pic3.jpg' alt="Shirt 1" />
+        <h3>HELLO KITTY</h3>
+        <p class="price">$12.99</p>
+        <button class="add-to-cart" data-name="HELLO KITTY" data-price="12.99">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src='thsirt3.jpg' alt="Shirt 1" />
+        <h3>PLAIN ACID</h3>
+        <p class="price">$10.99</p>
+        <button class="add-to-cart" data-name="PLAIN ACID" data-price="10.99">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src='tshirt2.jpg' alt="Shirt 1" />
+        <h3>MY CHEMICAL ROMANCE</h3>
+        <p class="price">$16.99</p>
+        <button class="add-to-cart" data-name="MY CHEMICAL ROMANCE" data-price="16.99">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+<section class="category">
+    <h2>Other Stuff</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src='pic2.webp' alt="Shirt 1" />
+        <h3>DBTK TOTE BAG</h3>
+        <p class="price">$29.99</p>
+        <button class="add-to-cart" data-name="DBTK TOTE BAG" data-price="29.99">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src='others1.jpg' alt="Shirt 1" />
+        <h3>NY CLOSE CAP</h3>
+        <p class="price">$35.99</p>
+        <button class="add-to-cart" data-name="NY CLOSE CAP" data-price="35.99">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <a href="cart.html">Go to Cart</a>
+
+  <script src="items.java"></script>
+  <script src="sidebar.java"></script>
+</body>
+</html>
